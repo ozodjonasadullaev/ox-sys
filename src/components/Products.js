@@ -20,6 +20,7 @@ const Products = ({ token }) => {
   };
   useEffect(() => {
     getProducts({ settotal, setdata, token, setfiltered, page, setToggle });
+    // eslint-disable-next-line
   }, [page]);
   const columns = [
     {
