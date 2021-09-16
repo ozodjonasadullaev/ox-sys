@@ -1,0 +1,14 @@
+._products {
+  padding: 5px 30px;
+  /* text-align: center; */
+}
+._table {
+  text-align: center;
+}
+.search {
+  color: blue;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
